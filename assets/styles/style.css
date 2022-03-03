@@ -1,0 +1,159 @@
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font: 14px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #CC9544;
+}
+
+#Menu {
+  height: 20px;
+  padding-top: 35px;
+  float: right;
+  font: 12px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#Menu ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#Menu li {
+  display: inline;
+  padding: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#CuadroMenu1 {
+  width: 950px;
+  float: right;
+}
+
+#Menu2 {
+  height: 20px;
+  padding-top: 35px;
+  float: right;
+  font: 14px Tahoma, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#Menu2 ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#Menu2 li {
+  display: inline;
+  padding: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#Menu2 li a.current {
+  color: #CC9544;
+  font-weight: bold;
+}
+
+#Caja {
+  background-color: #1C0A00;
+  width: 950px;
+  height: 930px;
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+}
+
+#header {
+  height: 470px;
+  width: 950px;
+  margin: 0 auto;
+  background-color:#1C0A00;
+}
+
+#headerLeft {
+  width: 12px;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  height: 216px;
+  float: left;
+}
+
+#logo {
+  width: 250px;
+  background-image: url(../logo/Logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  float: left;
+}
+
+#banner {
+  width: 700px;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  float: right;
+}
+
+#CuadroMenu2 {
+  width: 950px;
+  float: right;
+}
+
+#contenedor {
+  height: 600px;
+  width: 950px;
+  margin: 0 auto;
+  background-color: #1C0A00;
+}
+
+#contenedorLeft {
+  height: 300px;
+  width: 250px;
+  margin: 0 auto;
+  float: left;
+}
+
+#contenedorRight {
+  height: 550px;
+  width: 700px;
+  margin: 0 auto;
+  float: right;
+}
+
+#contenedorRight section {
+    color: #ffffff;
+
+}
+
+#contenedorRight span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#contenedorSocial {
+  height: 50px;
+  width: 250px;
+  margin: 0 auto;
+  float: left;
+  padding-top: 250px;
+}
+
+#footer {
+  height: 250px;
+  width: 950px;
+  margin: 0 auto;
+  background-color: #361500;
+}
