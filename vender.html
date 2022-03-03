@@ -2,111 +2,132 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sheikah Brothers | Vender</title>
-    <link href="/assets/styles/style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheikah Brothers | Vender</title>
+  <link href="/assets/styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div id="Caja">
-        <div id="header">
-          <div id="CuadroMenu1">
-            <div id="Menu">
-              <ul>
-                <li>
-                  <a href="#">Iniciar Sesion</a>
-                  <span> | </span>
-                </li>
-                <li>
-                  <a href="#">Registrase</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <section class="banner"></section>
-          <div id="CuadroMenu2">
-            <div id="Menu2">
-              <ul>
-                <li>
-                  <a href="index.html">Inicio</a>
-                  <span> | </span>
-                </li>
-                <li>
-                  <a href="juegos.html">Catalogo</a>
-                  <span> | </span>
-                </li>
-                <li>
-                  <a class="current" href="vender.html">Vender</a>
-                  <span> | </span>
-                </li>
-                <li>
-                  <a href="nosotros.html">Nosotros</a>
-                  <span> | </span>
-                </li>
-                <li>
-                  <a href="ubicanos.html">Ubicanos</a>
-                  <span> | </span>
-                </li>
-                <li>
-                  <a href="contacto.html">Contacto</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+  <div id="Caja">
+    <div id="header">
+      <div id="CuadroMenu1">
+        <div id="Menu">
+          <ul>
+            <li>
+              <a href="#">Iniciar Sesion</a>
+              <span> | </span>
+            </li>
+            <li>
+              <a href="#">Registrase</a>
+            </li>
+          </ul>
         </div>
-  
-        <div id="contenedor">
-          <div id="contenedorLeft">
-
-          </div>
-          <div id="contenedorRight">
-
-          </div>
-          <div id="contenedorSocial">
-            <section id="Redes">
-              Siguenos:
-              <br />
-              <ul>
-                <li>
-                  <a href="#">
-                    <img
-                      src="assets/images/facebook.png"
-                      height="30px"
-                      height="30px"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="assets/images/insta.png"
-                      height="30px"
-                      height="30px"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="assets/images/twitter.png"
-                      height="30px"
-                      height="30px"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </section>
-          </div>
-        </div>
-  
-        <div id="footer">
-            <span id="footer-span">Derechos Reservaos, Monterrey, Nuevo Leon</span><br>
-            <span id="footer-span">Creado por <a href="https://github.com/AzaelBarbosa">Azael Barbosa</a> para Launch X - Curso Frontend - 2022</span> 
-        </div>
-            
       </div>
+      <section class="banner"></section>
+      <div id="CuadroMenu2">
+        <div id="Menu2">
+          <ul>
+            <li>
+              <a href="index.html">Inicio</a>
+              <span> | </span>
+            </li>
+            <li>
+              <a href="juegos.html">Catalogo</a>
+              <span> | </span>
+            </li>
+            <li>
+              <a class="current" href="vender.html">Vender</a>
+              <span> | </span>
+            </li>
+            <li>
+              <a href="nosotros.html">Nosotros</a>
+              <span> | </span>
+            </li>
+            <li>
+              <a href="ubicanos.html">Ubicanos</a>
+              <span> | </span>
+            </li>
+            <li>
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="contenedor">
+      <section class="contenedorJuegos">
+        <form>
+          <br>
+          <label for="fjuego">Selecciona el Videojuego:</label><br>
+          <select id="fjuego" name="fjuego">
+            <option value="MarioStrikers">Switch: Mario Strikers</option>
+            <option value="fifa2022">Switch: Fifa 2022</option>
+            <option value="hinfinite">XBOX: Halo Infinite</option>
+            <option value="elenring">XBOX: Elden Ring</option>
+            <option value="darks3">XBOX/PS5: Dark Souls 3</option>
+            <option value="gowragnarok">PS5: God of WAr Ragnarok</option>
+            <option value="monsterhunter">PS4: Monster Hunter World</option>
+            <option value="zeldabotw">SwitcH: Zelda Breath of The Wild</option>
+            <option value="pokemon">Switch: Pokemon</option>
+            <option value="xfifa2022">XBOX: Fifa 2022</option>
+            <option value="gtav">XBOX/PS5: GTA V</option>
+            <option value="monsterhunterrise">Switch: Monster HUnter Rise</option>
+          </select><br><br>
+          <label for="fnombre">Nombre Completo:</label><br>
+          <input type="text" name="fnombre"><br><br>
+          <label for="fcorreo">Correo:</label><br>
+          <input type="text" name="fcorreo"><br><br>
+          <label for="fnumero">Numero Telefono:</label><br>
+          <input type="text" name="fnumero"><br><br>
+          <label for="fplataforma">Plataforma:</label><br>
+          <select id="fplataforma" name="fplataforma">
+            <option value="switch">Switch</option>
+            <option value="ps5">PlayStation 5</option>
+            <option value="xboxseries">XBOX Series</option>
+          </select><br><br>
+          <label for="condicion">Condicion del Juego:</label><br>
+          <input type="radio" id="usado" name="condicion" value="Usado">
+          <label for="usado">Usado</label><br>
+          <input type="radio" id="nuevo" name="condicion" value="nuevo">
+          <label for="nuevo">Nuevo</label><br><br>
+          <input type="submit" value="Cotizar" onclick="">
+        </form>
+
+      </section>
+      <div id="contenedorSocial2">
+        <section id="Redes">
+          Siguenos:
+          <br />
+          <ul>
+            <li>
+              <a href="#">
+                <img src="assets/images/facebook.png" height="30px" height="30px" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/insta.png" height="30px" height="30px" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/twitter.png" height="30px" height="30px" />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <div id="footer">
+      <span id="footer-span">Derechos Reservaos, Monterrey, Nuevo Leon</span>
+      <span id="footer-span">Creado por <a href="https://github.com/AzaelBarbosa">Azael Barbosa</a> para Launch X - Curso Frontend - 2022</span>
+    </div>
+
+  </div>
 </body>
 
 </html>

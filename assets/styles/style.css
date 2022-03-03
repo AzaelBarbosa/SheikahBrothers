@@ -1,5 +1,5 @@
 body {
-  background-color:  #1c0a00;
+  background-color: #1c0a00;
   margin: 0px;
   padding: 0px;
   color: #ffffff;
@@ -158,19 +158,16 @@ a:hover {
   padding-top: 10px;
 }
 
-
 #footer {
   height: 50px;
   width: 950px;
   margin: 0 auto;
   background-color: #361500;
+  font-size: 12px;
 }
 
-
-#footer-span {
-  padding-top: 20px;
-  padding-left: 10px;
-  text-align: center;
+#footer span {
+  padding-top: 10px;
 }
 
 #Redes {
@@ -188,10 +185,12 @@ a:hover {
 .contenedorJuegos {
   height: 500px;
   width: 950px;
+  text-align: center;
 }
 
 .contenedorJuegos li {
-  display: inline-block;
+  display: inline;
+  float: table;
 }
 
 .contenedorJuego {
@@ -201,4 +200,49 @@ a:hover {
   padding-bottom: 4px;
   height: 230px;
   width: 150px;
+  text-align: center;
+  transition: 1s;
+  float: left;
+  display: table;
+  position: relative;
+}
+
+.contenedorJuego img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  transition: 0.5s;
+}
+
+.contenedorJuego img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.contenedorJuegos form {
+  height: 90%;
+  border: 1px solid #603601;
+}
+
+/* PAra desplegar Imagenes */
+
+
+.dropdown-contenido {
+  display: none;
+  position: absolute;
+  background-color: #361500;
+  min-width: 360px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+  z-index: 1;
+}
+.contenedorJuego:hover .dropdown-contenido {
+  display: block;
+}
+
+.precio {
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
