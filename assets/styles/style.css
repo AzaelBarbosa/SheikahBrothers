@@ -150,6 +150,15 @@ a:hover {
   padding-top: 220px;
 }
 
+#contenedorSocial2 {
+  height: 100px;
+  width: 250px;
+  margin: 0 auto;
+  float: left;
+  padding-top: 10px;
+}
+
+
 #footer {
   height: 50px;
   width: 950px;
@@ -174,4 +183,22 @@ a:hover {
   padding: 0px;
   padding-left: 1px;
   padding-right: 1px;
+}
+
+.contenedorJuegos {
+  height: 500px;
+  width: 950px;
+}
+
+.contenedorJuegos li {
+  display: inline-block;
+}
+
+.contenedorJuego {
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  height: 230px;
+  width: 150px;
 }
